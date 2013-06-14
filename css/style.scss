@@ -1,0 +1,210 @@
+@import "normalize";
+@import "bits";
+
+body{
+	background:gray;
+	min-height:100%;
+	min-height:300px;
+}
+
+header{
+	background:white;
+	min-height:73px;
+	border-bottom:3px solid #199cc4;
+	position:relative;
+	z-index:9999999999999;
+	nav.left-section{
+		float:left;
+		margin:10px 10px 10px 20px;
+		ul{
+			list-style:none;
+			padding:0;
+			margin:0;
+			li{
+				
+				a{
+					background:url(../images/logo.png) no-repeat ;
+					width:227px;
+					height:47px;
+					position:relative;
+					text-indent:-99999px;
+					display:block;
+				}
+			}
+		}
+	}
+	nav.right-section{
+		float:right;
+		.selected{
+			width:300px;
+			margin:10px 0;
+			ul{
+				position:relative;
+				list-style:none;
+				padding:0;
+				margin:0;
+				display:block;
+
+				li.option-0{
+					height:40px;
+					border-right:2px solid #eee;
+					float:left;
+					padding:5px;
+					a{
+						background:url(../images/ion.png) no-repeat;
+						width:107px;
+						height:32px;
+						position:relative;
+						text-indent:-99999px;
+						display:block;
+						
+						
+						padding-right:10px;
+					}
+				}
+				li.option-1{
+					height:40px;
+					border-right:2px solid #eee;
+					float:left;
+					padding:5px;
+					a{
+						background:url(../images/shop.png) no-repeat;
+						position:relative;
+						text-indent:-99999px;
+						display:block;
+						width:26px;
+						height:21px;
+						margin:10px;
+					}
+				}
+				li.option-2{
+					height:40px;
+					float:left;
+					padding:5px;
+					a{
+						background:url(../images/fb.png) no-repeat;
+						position:relative;
+						text-indent:-99999px;
+						display:block;
+						width:8px;
+						height:19px;
+						padding-right:10px;
+						margin:10px;
+					}
+				}
+			}
+		}
+
+	}
+}
+
+#content{
+	.arrows{
+				z-index: 9999999999;
+				width: 100%;
+				top: 50%;
+				margin-top: -15px;
+				position: absolute;
+				a{
+					position: absolute;	
+					width: 65px;
+					height: 65px;
+					display: block;
+					z-index: 99999999;
+					text-indent:-99999px;
+					
+					span{
+						color: #ccc;
+						display: inline-block;
+						height: 28px;
+						margin: 14px;
+						width: 28px;
+						
+						}
+					
+				}
+
+				#prevslide{
+					background:url(../images/left-arrow.png) no-repeat;
+					left:0;
+					opacity:0.5;
+						&:hover{
+							cursor:pointer;
+							opacity:1;
+						}
+					}
+				#nextslide{
+					right:0;
+					background:url(../images/right-arrow.png) no-repeat;
+					opacity:0.5;
+					&:hover{
+							cursor:pointer;
+							opacity:1;
+						}
+				}
+			} 
+	
+	.section-wrapper{
+	
+		.home-container{
+			
+			
+		}
+	}
+}
+
+footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	nav{
+		font-size:0;
+		a{
+			display:inline-block;
+			width:20%;
+			background:#58585a;
+			padding:10px 0;
+			text-align:center;
+			font-size:16px;
+			height:70px;
+			text-indent:-99999px;
+		}
+
+		.nav-1{
+			background: white url(../images/nav-ion.png) no-repeat center center;
+			border-top:20px solid white;
+		}
+
+		.nav-2{
+			background: #58585a url(../images/nav-savings.png) no-repeat center center;
+			border-top:20px solid #16c1f3;
+		}
+
+		.nav-3{
+			background: #58585a url(../images/nav-academic.png) no-repeat center center;
+			border-top:20px solid #0e76bc;
+		}
+
+		.nav-4{
+			background: #58585a url(../images/nav-lifestyle.png) no-repeat center center;
+			border-top:20px solid #f6a704;
+		}
+
+		.nav-5{
+			background: #58585a url(../images/nav-health.png) no-repeat center center;
+			border-top:20px solid #fc6719;
+		}
+	}
+}
+
+
+		#supersized {  display:block; position:fixed; left:0; top:0; overflow:hidden; z-index:-999; height:100%; width:100%; }
+		#supersized img { width:auto; height:auto; position:relative; display:none; outline:none; border:none; }
+		#supersized.speed img { -ms-interpolation-mode:nearest-neighbor; image-rendering: -moz-crisp-edges; }	/*Speed*/
+		#supersized.quality img { -ms-interpolation-mode:bicubic; image-rendering: optimizeQuality; }			/*Quality*/
+		#supersized li { display:block; list-style:none; z-index:-30; position:fixed; overflow:hidden; top:0; left:0; width:100%; height:100%; background:white; }
+		#supersized a { width:100%; height:100%; display:block; }
+		#supersized li.prevslide img, #supersized li.activeslide img{ display:inline; }
+	
+			
+				
