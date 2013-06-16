@@ -12,12 +12,12 @@
 	<meta name="viewport" content="width=device-width">
 		
 
-		<link rel="stylesheet" href="css/supersized.css" type="text/css" media="screen" />
+		<!-- <link rel="stylesheet" href="css/supersized.css" type="text/css" media="screen" /> -->
 		<link rel="stylesheet" href="theme/supersized.shutter.css" type="text/css" media="screen" />
 		
-		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 		<script type="text/javascript" src="js/jquery.easing.min.js"></script>
-		
+		<script type="text/javascript" src="js/bootstrap.js"></script>
 		<script type="text/javascript" src="js/supersized.3.2.7.min.js"></script>
 		<script type="text/javascript" src="theme/supersized.shutter.min.js"></script>
 		
@@ -72,12 +72,13 @@
 		    
 		</script>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 		<script type="text/javascript" src="js/js.js"></script>
 </head>
 <body>
 
 <header>
-	<nav id="main" class="left-section">
+	<nav class="left-section">
 		<ul>
 			<li class="option-0">
 				<a href="#" class="option-0">logo</a>
@@ -116,10 +117,28 @@
 	</div><!-- end of section-container -->
 </div><!-- end of content -->
 
+ 
+<!-- Modal -->
+<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="myModalLabel">Modal header</h3>
+  </div>
+  <div class="modal-body">
+    <p>One fine body…</p>
+  </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+    <button class="btn btn-primary">Save changes</button>
+  </div>
+</div>
+
+
+
 <footer>
 
 	<nav>
-		<a class="nav-1" href="#">axaion</a>
+		<a class="nav-1" href="#myModal" data-toggle="modal">axaion</a>
 		<a class="nav-2" href="#">savings exentials</a>
 		<a class="nav-3" href="#">academic exentials</a>
 		<a class="nav-4" href="#">life exentials</a>
