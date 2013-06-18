@@ -76,6 +76,9 @@ header{
 						width:26px;
 						height:21px;
 						margin:10px;
+						&:hover, &:focus{
+
+						}
 					}
 				}
 				li.option-2{
@@ -172,28 +175,43 @@ footer{
 		}
 
 		.nav-1{
-			background: white url(../images/nav-ion.png) no-repeat center center;
+			background: #58585a url(../images/nav-ion-2.png) no-repeat center center;
 			border-top:20px solid white;
+			&:hover, &:focus{
+							background:white url(../images/nav-ion.png) no-repeat center center;
+						}
 		}
 
 		.nav-2{
 			background: #58585a url(../images/nav-savings.png) no-repeat center center;
 			border-top:20px solid #16c1f3;
+			&:hover, &:focus{
+							background:#16c1f3 url(../images/nav-savings.png) no-repeat center center;
+						}
 		}
 
 		.nav-3{
 			background: #58585a url(../images/nav-academic.png) no-repeat center center;
 			border-top:20px solid #0e76bc;
+			&:hover, &:focus{
+							background:#0e76bc url(../images/nav-academic.png) no-repeat center center;
+						}
 		}
 
 		.nav-4{
-			background: #58585a url(../images/nav-lifestyle.png) no-repeat center center;
+			background: #58585a url(../images/nav-academic.png) no-repeat center center;
 			border-top:20px solid #f6a704;
+			&:hover, &:focus{
+							background:#f6a704 url(../images/nav-savings.png) no-repeat center center;
+						}
 		}
 
 		.nav-5{
 			background: #58585a url(../images/nav-health.png) no-repeat center center;
 			border-top:20px solid #fc6719;
+			&:hover, &:focus{
+							background:#fc6719 url(../images/nav-health.png) no-repeat center center;
+						}
 		}
 	}
 }
@@ -207,27 +225,6 @@ footer{
 		#supersized a { width:100%; height:100%; display:block; }
 		#supersized li.prevslide img, #supersized li.activeslide img{ display:inline; }
 
-.modal{
-	position: fixed;
-top: 10%;
-left: 50%;
-z-index: 1050;
-width: 560px;
-margin-left: -280px;
-background-color: #ffffff;
-border: 1px solid #999;
-border: 1px solid rgba(0, 0, 0, 0.3);
--webkit-border-radius: 6px;
--moz-border-radius: 6px;
-border-radius: 6px;
-outline: none;
--webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
--moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
--webkit-background-clip: padding-box;
--moz-background-clip: padding-box;
-background-clip: padding-box;
-}
-	
+
 			
 				
